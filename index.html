@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>SI-Tajwid</title>
+    <meta name="description" content="Buku Tajwid Al-Qur'an lengkap dengan metode warna dan audio. Belajar membaca Al-Qur'an dengan benar. Pre-order sekarang!">
+    <!-- Google Fonts + Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header / Navbar Sederhana -->
+<div class="top-bar">
+    <div class="container">
+        <div class="logo">SI-<span>Tajwid</span></div>
+        <div class="trust-badge"><i class="fas fa-check-circle"></i> Garansi Resmi</div>
+    </div>
+</div>
+
+<!-- Produk Utama -->
+<div class="container">
+    <div class="product-wrapper">
+        <!-- Galeri Gambar Buku -->
+        <div class="product-gallery">
+            <div class="main-image">
+                <img src="POSTER.png" alt="Buku Tajwid Al-Qur'an" id="mainImage">
+                <div class="badge-preorder">PRE-ORDER</div>
+            </div>
+            <div class="thumbnails">
+                <img src="cover.png" alt="Cover Buku" class="thumb active" onclick="changeImage(this)">
+                <img src="isi buku.png" alt="Isi Buku" class="thumb" onclick="changeImage(this)">
+                <img src="POSTER.png" alt="Bonus Poster" class="thumb" onclick="changeImage(this)">
+                <img src="QRFIQAR.jpeg" alt="QR Code Audio" class="thumb" onclick="changeImage(this)">
+            </div>
+            <div class="design-note">
+                <i class="fas fa-paintbrush"></i> *Desain cover final sedang dalam proses penyempurnaan
+            </div>
+        </div>
+
+        <!-- Info Produk -->
+        <div class="product-info">
+            <div class="category">Best Seller Islamic Book 2026</div>
+            <h1>BIMBINGAN TAHSIN & TAJWID<br>AL-QUR'AN</h1>
+            <div class="rating">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                <span>4.9/5 (1.200+ ulasan)</span>
+            </div>
+            <div class="price-section">
+                <div class="price">Rp 50.000</div>
+                <div class="price-original">Rp 200.000</div>
+                <div class="discount">Diskon 75%</div>
+            </div>
+            <div class="promo-badge">
+                <i class="fas fa-gift"></i> Bonus: Garansi 1 Tahun Konsultasi
+            </div>
+
+            <!-- Spesifikasi Singkat -->
+            <div class="specs">
+                <div class="spec-item"><i class="fas fa-book"></i> 35 Halaman</div>
+                <div class="spec-item"><i class="fas fa-qrcode"></i> Scan QR → Audio Contoh Bacaan</div>
+    
+            </div>
+
+            <!-- Tombol WhatsApp -->
+            <div class="whatsapp-btn-container">
+                <a href="https://wa.me/6281236456050?text=Assalamualaikum%2C%20saya%20tertarik%20dengan%20Buku%20Tajwid%20Al-Qur%27an.%20Mohon%20info%20lebih%20lanjut%20dan%20cara%20pemesanan.%20Terima%20kasih" 
+                   class="btn-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+                </a>
+                <p class="wa-hint">Klik untuk chat langsung | Respon cepat 24 jam</p>
+            </div>
+
+            <!-- Metode Pembayaran -->
+            <div class="payment-methods">
+                <span>Metode Pembayaran:</span>
+                <i class="fas fa-credit-card"></i>
+                <i class="fas fa-university"></i>
+                <i class="fab fa-google-pay"></i>
+                <i class="fab fa-apple-pay"></i>
+                <span class="more">+ Semua E-Wallet</span>
+            </div>
+
+            <!-- Pengiriman -->
+            <div class="shipping">
+                <i class="fas fa-truck"></i> Bebas ongkir se-Indonesia (min. pembelian 1 eksemplar)
+            </div>
+        </div>
+    </div>
+
+    <!-- Keunggulan Produk -->
+    <div class="features-section">
+        <h2>✨ Kenapa Harus Buku Ini?</h2>
+        <div class="features-grid">
+            <div class="feature">
+                <i class="fas fa-video"></i>
+                <h4>Pembelajaran Lebih Jelas</h4>
+                <p>Dilengkapi video pembelajaran melalui QR code</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-users"></i>
+                <h4>Mudah untuk Pemula</h4>
+                <p>Memudahkan pemula dalam memahami tajwid</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-user-graduate"></i>
+                <h4>Belajar Mandiri</h4>
+                <p>Bisa belajar mandiri tanpa harus ke tempat les</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-ear-listen"></i>
+                <h4>Teknik Mendengarkan</h4>
+                <p>Membangun kemampuan dengan teknik mendengarkan</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Isi Materi Buku -->
+    <div class="materi-section">
+        <h2>📖 Apa Saja Isi Buku Ini?</h2>
+        <div class="materi-list">
+            <div class="materi-item">✓ Dalil Al-Qur'an & Hadits tentang Tajwid</div>
+            <div class="materi-item">✓ Makhorijul Huruf (Tempat Keluar Huruf)</div>
+            <div class="materi-item">✓ Sifat-Sifat Huruf (Lengkap dengan contoh)</div>
+            <div class="materi-item">✓ Hukum Nun Sukun & Tanwin (Izhar, Idgham, Iqlab, Ikhfa)</div>
+            <div class="materi-item">✓ Hukum Mim Sukun (Ikhfa Syafawi, Idgham Mimi, Izhar Syafawi)</div>
+            <div class="materi-item">✓ Hukum Mad (Mad Thabi'i, Mad Wajib, Mad Jaiz, dll)</div>
+            <div class="materi-item">✓ Hukum Ra' & Lam Jalalah (Tafkhim & Tarqiq)</div>
+            <div class="materi-item">✓ Latihan & Evaluasi Setiap Bab</div>
+        </div>
+    </div>
+
+    <!-- Testimoni -->
+    <div class="testimoni-section">
+        <h2>💬 Apa Kata Pembaca?</h2>
+        <div class="testimoni-grid">
+            <div class="testimoni-card">
+                <i class="fas fa-user-circle"></i>
+                <p>"Buku ini sangat membantu saya belajar tajwid. Metode warnanya memudahkan hafalan!"</p>
+                <div class="testimoni-name">— Ustadz Hafid Baladjam, Pengajar TPQ</div>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="testimoni-card">
+                <i class="fas fa-user-circle"></i>
+                <p>"Anak saya jadi semangat belajar ngaji. Bonus audio premiumnya bagus banget."</p>
+                <div class="testimoni-name">— Pak Fahrizal, Orang Tua Santri</div>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="testimoni-card">
+                <i class="fas fa-user-circle"></i>
+                <p>"Materi lengkap, penjelasan mudah dipahami. Worth it banget!"</p>
+                <div class="testimoni-name">— Nizam Wahyu, Mahasiswa</div>
+                <div class="stars">★★★★☆</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Penawaran Terbatas -->
+    <div class="offer-banner">
+        <div class="offer-content">
+            <h3><i class="fas fa-clock"></i> Penawaran Terbatas!</h3>
+            <p>Dapatkan Diskon 75% + <strong>GARANSI</strong> 1 Tahun Konsultasi</p>
+            <div class="countdown">
+                <span id="days">00</span> Hari : 
+                <span id="hours">00</span> Jam : 
+                <span id="minutes">00</span> Menit : 
+                <span id="seconds">00</span> Detik
+            </div>
+            <a href="https://wa.me/6281236456050?text=Assalamualaikum%2C%20saya%20tertarik%20dengan%20Buku%20Tajwid%20Al-Qur%27an.%20Mohon%20info%20lebih%20lanjut%20dan%20cara%20pemesanan.%20Terima%20kasih" 
+               class="btn-whatsapp btn-large" target="_blank">
+                <i class="fab fa-whatsapp"></i> Pesan Sekarang via WA
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">SI-<span>Tajwid</span></div>
+            <p>Penerbit Buku Islam & Al-Qur'an — Musada Maxwell</p>
+            <div class="social">
+                <a href="https://www.instagram.com/sekolahimpianofficial?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/officialsekolahimpian?__cft__[0]=AZY60wqWv4i0lgYrANxzsGFx0vsqUmGOrMWzoFfnYyAVWx67TSkI9jBgDp5Ov7DNNcCMVdCYfkQFTy9K3Yyj8wi8OJxt289CDmuQRkktLlQ_l3Y5e1E48L0aTx7EMOCPPQzc-ca-Jo1xIDW52tvqScsEhavhwYwOh1W5NlXFtCzMUF4_-20dPQpWJkoajZ04Yn9aMdK8qx0hFlB2eKePTs9B&__tn__=-UC%2CP-R"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.youtube.com/@sekolahimpianku"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.tiktok.com/@sekolahimpianofficial?is_from_webapp=1&sender_device=pc"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <div class="footer-links">
+                <a href="#">Kebijakan Privasi</a> | 
+                <a href="#">Syarat & Ketentuan</a> | 
+                <a href="#">Garansi</a>
+            </div>
+            <p class="copyright">© 2026 SI-Tajwid. Hak Cipta Dilindungi Undang-Undang.</p>
+        </div>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
